@@ -1,0 +1,141 @@
+body{
+    background-color: #bae6fd;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Start */
+
+/* .header-container{
+    position: fixed;
+} */
+
+.header{
+    font-size: 2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.name{
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.directions{
+    display: flex;
+    width: 20%;
+    max-width: 250px;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 920px) {
+    .header{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .directions{
+        width: 40%;
+        right: 10px;
+    }
+}
+
+/* Header End */
+
+/* Home Start */
+
+.home{
+    display: flex;
+    margin-top: 20vh;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.greetings{
+    display: flex;
+    flex-direction: column;
+}
+
+.Big{
+    font-size: max(5vh, 5vw);
+    font-weight: bold;
+}
+
+.hello{
+    font-size: max(3vh, 3vw);
+}
+
+.photu-one{
+    background-image: url(/home/aarushi/Coding/Portfolio-1/cropped.jpg);
+    background-size:cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 1000px){
+    .photu-one{
+        height: 350px;
+        width: 350px;
+    }
+    .home{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+.resume-button{
+    background-color: #0369a1;
+    margin: 20px;
+    width: 80px;
+}
+
+.resume-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+    .home{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 40px;
+    }
+
+    .photu-one{
+        height: 100px;
+        width: 100px;
+    }
+
+    .resume-button{
+        width: 60px;
+    }
+
+    .Big{
+        font-size: min(5vh, 5vw);
+    }
+
+    .hello{
+        font-size: min(3vh, 3vw);
+    }
+}
+
+/* Home End */
+/* About start */
+
+.about{
+
+}
