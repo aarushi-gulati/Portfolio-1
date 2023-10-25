@@ -83,7 +83,7 @@ body{
 }
 
 .photu-one{
-    background-image: url(cropped.jpg);
+    background-image: url("pics/1720b22b-6c9f-46e7-9df1-d2e346c2f218 (1).jpeg");
     background-size:cover;
     height: 200px;
     width: 200px;
@@ -169,8 +169,8 @@ body{
 }
 
 .screenshot{
-    height: 200px;
-    width: 200px;
+    height: 188.8px;
+    width: 319.4px;
 }
 
 .card{
@@ -181,8 +181,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
-    height: 375px;
+    width: 350px;
+    height: 425px;
     margin: 20px;
 }
 
@@ -231,3 +231,26 @@ body{
     background-color: #60a5fa;
 }
 
+.contact-desc{
+    max-width: 50%;
+    font-size: 3vw;
+    margin-bottom: 50px;
+}
+
+.contact-bottom{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.address{
+    display: flex;
+    align-items: center;
+}
+
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
