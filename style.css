@@ -83,7 +83,7 @@ body{
 }
 
 .photu-one{
-    background-image: url(/home/aarushi/Coding/Portfolio-1/cropped.jpg);
+    background-image: url(cropped.jpg);
     background-size:cover;
     height: 200px;
     width: 200px;
