@@ -1,5 +1,6 @@
 body{
-    background-color: #bae6fd;
+    margin: 0px;
+    color: #082f49;
 }
 
 .main{
@@ -10,9 +11,10 @@ body{
 
 /* Header Start */
 
-/* .header-container{
-    position: fixed;
-} */
+.header-container{
+    background-color: #93c5fd;
+    height: 100vh;
+}
 
 .header{
     font-size: 2vh;
@@ -23,6 +25,7 @@ body{
     margin-right: 40px;
     margin-top: 10px;
     position: relative;
+    background-color: #93c5fd
 }
 
 .name{
@@ -54,13 +57,15 @@ body{
 
 /* Home Start */
 
+
 .home{
     display: flex;
-    margin-top: 20vh;
+    margin-top: 30vh;
     justify-content: space-around;
     align-items: center;
     margin-left: 50px;
     margin-right: 50px;
+    background-color: #93c5fd;
 }
 
 .greetings{
@@ -108,34 +113,121 @@ body{
     justify-content: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
     .home{
+        flex-direction: column;
+        margin-top: 20vh;
         margin-left: 20px;
         margin-right: 20px;
-        margin-top: 40px;
-    }
-
-    .photu-one{
-        height: 100px;
-        width: 100px;
     }
 
     .resume-button{
         width: 60px;
     }
-
-    .Big{
-        font-size: min(5vh, 5vw);
-    }
-
-    .hello{
-        font-size: min(3vh, 3vw);
-    }
 }
 
 /* Home End */
+
 /* About start */
 
 .about{
-
+    height: 100vh;
+    background-color: #60a5fa;
 }
+
+.about-heading{
+    margin:50px;
+    font-size: max(5vh, 5vw);
+    font-weight: bold;
+}
+
+.about-content{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: min(5vh, 5vw);
+}
+
+@media screen and (min-width: 750px) and (max-width: 1350px){
+    .about-content{
+        font-size: 3.5vw;
+    }
+}
+
+/*About end*/
+
+/*Work start*/
+
+.work{
+    background-color: #93c5fd;
+    min-height: 100vh;
+}
+
+.my-work{
+    margin:50px;
+    font-size: max(5vh, 5vw);
+    font-weight: bold;
+}
+
+.screenshot{
+    height: 200px;
+    width: 200px;
+}
+
+.card{
+    position: relative;
+    padding: 20px;
+    background-color: #bfdbfe;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 375px;
+    margin: 20px;
+}
+
+.card-title{
+    font-weight: bold;
+    text-align: center;
+}
+
+.desc{
+    margin: 10px;
+}
+
+.link{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.live{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 10px;
+}
+
+.github{
+    position: absolute;
+    bottom: 30px;
+}
+
+.deck{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+/* Work end */
+
+/* Contact start */ 
+
+.contact{
+    background-color: #60a5fa;
+}
+
